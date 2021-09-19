@@ -1,0 +1,20 @@
+<div class="container">
+    <article class="card mycard">
+     <div class="card-header mycard-header">
+         <h3>Login</h3>
+     </div>
+     <div class="card-body mycard-content">
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Username" [(ngModel)]="username" [ngModelOptions]="{standalone:true}">
+            <label for="floatingInput">Username</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" [(ngModel)]="password" [ngModelOptions]="{standalone:true}">
+            <label for="floatingPassword">Password</label>
+          </div>
+     </div>
+     <div class="card-footer footer">          
+        <button type="button" class="btn btn-dark" (click)="toSucess()">Login</button>
+         </div>
+    </article>
+    </div>

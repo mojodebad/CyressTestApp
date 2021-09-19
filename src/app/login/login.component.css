@@ -1,0 +1,30 @@
+.container{
+    border: none;
+    padding: none;
+    padding-top:2rem;
+    margin:  none !important;
+    display: flex;
+    width:inherit;
+    align-items: center;
+    text-align: center;
+}
+.mycard{
+    padding: 0.5rem;
+    margin:5rem 30rem 5rem 30rem;
+    width: 25%;
+    display: block;
+}
+
+.mycard-header{
+    color: white;
+    background-color: rgb(184, 15, 184);
+    margin-bottom: 00.5rem;
+}
+
+.mycard-content{
+    color:rgb(184, 15, 184); 
+    align-items: center;
+}
+.footer{
+   align-items: stretch; 
+}
