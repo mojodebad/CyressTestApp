@@ -1,8 +1,14 @@
 {
     "$schema": "https://on.cypress.io/cypress.schema.json",
-    "screenshotsFolder": "output/e2e/screenshots",
-    "videosFolder": "output/e2es/videos",
+    "screenshotsFolder": "./output/e2e/screenshots",
     "baseUrl": "http://localhost:4200",
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "viewportWidth": 1000,
+  "viewportHeight": 1200,
+  "video": true,
+  "videoCompression": false,
+  "videosFolder": "cypress/videos",
+  "projectId": "Primus"
+  
 
 }
